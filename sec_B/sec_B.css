@@ -1,0 +1,572 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/p4.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f1f9f4;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    margin: 0;
+    font-size: 1.45em;
+    text-decoration: none;
+    color: #a2a2a2;
+}
+
+.main-nav {
+    margin-top: 5px;
+}
+
+.logo a,
+    .main-nav a {
+        padding: 10px 15px;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+        color: #34495e;
+    }
+
+.main-nav a {
+    color: #34495e;
+    font-size: .99em;
+}
+
+.main-nav a:hover {
+    color: #718daa;
+}
+
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #a2a2a2;
+    background-color: #f4f4f4;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-nav {
+    list-style-type: none;
+}
+
+
+@media (min-width: 769px) {
+    .header,
+    .main-nav {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        .header
+
+        {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1150px;
+        }
+
+    }
+    
+}
+
+@media (min-width: 1025px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+}
+
+.navbar-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
+}
+
+.navbar-logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.navbar-menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #2d6a4f;
+    color: #fff;
+}
+
+/*************************************************************************************************************************************/
+/*                                                                                                                                   */                           
+/*                                              BODY CSS                                                                             */
+/*                                                                                                                                   */  
+/*************************************************************************************************************************************/
+.container {
+    margin: 20px auto;
+    max-width: 100%;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: #f1f9f4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bold_border_container {
+    margin: 20px auto;
+    max-width: 100%;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: #f1f9f4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 2px solid #186b38; /* Add this line to make the border solid with the same color */
+}
+
+.invisible_container {
+    margin: 10px auto;
+    max-width: 100%;
+    padding: 1%;
+    background-color: #f1f9f4;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2d6a4f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.policy {
+    padding-bottom: 14px;
+}
+
+.form-label {
+    font-family: 'Montserrat', sans-serif;
+    color: #2d6a4f;
+    margin-bottom: 1rem;
+}
+
+.mb-3 {
+    margin-bottom: 1.3rem;
+}
+
+.form-select,
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+}
+
+.btn-primary {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.btn-primary:hover {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.button-7 {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.button-7:hover,
+.button-7:focus {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    ;
+}
+
+.button-7:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    box-shadow: none;
+}
+
+/*************************************************************************************************************************************/
+/*                                                                                                                                   */                           
+/*                                              For the table                                                                        */
+/*                                                                                                                                   */  
+/*************************************************************************************************************************************/
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #2d6a4f;
+    border-radius: 5px;
+}
+td,th {
+    border: 1px solid #2d6a4f;
+    padding: 4px;
+}
+table input[type="text"] {
+    background-color: transparent;
+    width: 100%;
+    padding: 5px;
+}
+
+/* Table 24 Start */
+
+.table-control {
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #2d6a4f;
+}
+
+#indexInput14 {
+    width: 10%; /* Adjust the width as needed */
+    padding: 8px;
+    border: 1px solid #2d6a4f;
+    border-radius: 4px;
+    margin-right: 10px; /* Add some spacing to the right */
+    margin-top: 1%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#indexInput14:focus {
+    outline: none;
+    border-color: #17a2b8; /* Highlight border color on focus */
+}
+
+#indexInput15 {
+    width: 10%; /* Adjust the width as needed */
+    padding: 8px;
+    border: 1px solid #2d6a4f;
+    border-radius: 4px;
+    margin-right: 10px; /* Add some spacing to the right */
+    margin-top: 1%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#indexInput15:focus {
+    outline: none;
+    border-color: #17a2b8; /* Highlight border color on focus */
+}
+
+#indexInput21 {
+    width: 10%; /* Adjust the width as needed */
+    padding: 8px;
+    border: 1px solid #2d6a4f;
+    border-radius: 4px;
+    margin-right: 10px; /* Add some spacing to the right */
+    margin-top: 1%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#indexInput21:focus {
+    outline: none;
+    border-color: #17a2b8; /* Highlight border color on focus */
+}
+
+#indexInput24 {
+    width: 10%; /* Adjust the width as needed */
+    padding: 8px;
+    border: 1px solid #2d6a4f;
+    border-radius: 4px;
+    margin-right: 10px; /* Add some spacing to the right */
+    margin-top: 1%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#indexInput24:focus {
+    outline: none;
+    border-color: #17a2b8; /* Highlight border color on focus */
+}
+
+/*************************************************************************************************************************************/
+/*                                                                                                                                   */                           
+/*                                              FOOTER-START                                                                         */
+/*                                                                                                                                   */  
+/*************************************************************************************************************************************/
+.footer {
+    background-color: #2d6a4f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.row {
+    display: collapse;
+    flex-wrap: wrap; /* Enable wrapping for responsiveness */
+    justify-content: space-between; /* Spread columns evenly */
+}
+
+.column {
+    padding: 0 0.9375rem;
+    margin-bottom: 1.5rem; /* Add some spacing between columns */
+}
+
+h4 {
+    margin-bottom: 0.9375rem;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.625rem;
+}
+
+ul li a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+ul li i {
+    color: #00563F;
+}
+
+ul li a:hover {
+    color: #02cc96;
+}
+
+
+@media (max-width: 800px) {
+    ul.social-icons {
+        flex-direction: justify; /* Stack the icons vertically */
+        text-align: center; /* Center the icons within the container */
+    }
+
+    ul.social-icons li {
+        margin-bottom: 0.625rem;
+    }
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    column-gap: 0.625rem;
+}
+
+.social-icons i {
+    color: white;
+}
+
+ul.social-icons li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #00563F;
+    text-decoration: none;
+}
+
+ul.social-icons li:hover a {
+    background-color: #16981d;
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+    background-color: #008514;
+    padding: 0.6rem 0;
+}
+
+/*************************************************************************************************************************************/
+/*                                                                                                                                   */                           
+/*                                                          Table Responsive                                                         */
+/*                                                                                                                                   */  
+/*************************************************************************************************************************************/
+
+/* Add a general class for tables with responsive slider */
+.responsive-table {
+    width: auto;
+    overflow-x: auto;
+    display: block;
+}
+
+/* Apply styles to the table and cells */
+.responsive-table th,
+.responsive-table td {
+    max-width: auto; /* Set a maximum width for each cell */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Additional styles for the specific ID 'torpew' */
+#torpew {
+    overflow-x: auto;
+}
+
+/* Add your CSS styles here */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*************************************************************************************************************************************/
+/*                                                                                                                                   */
+/*                                              TABLE COMMENTS                                                                       */
+/*                                                                                                                                   */
+/*************************************************************************************************************************************/
+/* Style for the summary within add_comment_detail class */
+.add_comment_detail summary {
+    font-family: 'Montserrat', sans-serif;
+    color: #2d6a4f; /* Change the color as needed */
+    padding-top: 14px; /* Add spacing on top */
+    list-style: none; /* Remove default list-style */
+    cursor: pointer;
+}
+
+    .add_comment_detail summary::-webkit-details-marker {
+        display: none; /* Hide the default arrow icon */
+    }
+
+    /* Adding a '+' symbol before the summary text when add_comment_detail is not expanded */
+    .add_comment_detail summary:before {
+        content: "+ ";
+        color: #2d6a4f; /* Change the color as needed, if you want a different color for the icon */
+    }
+
+/* Changing to a '-' symbol when add_comment_detail is expanded */
+.add_comment_detail[open] summary:before {
+    content: "- ";
+}
+
+.detail-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 14px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    min-height: 150px;
+}
